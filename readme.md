@@ -43,6 +43,8 @@ curl https://get.ignite.com/username/CarAuction@latest! | sudo bash
 ```
 `username/CarAuction` should match the `username` and `repo_name` of the Github repository to which the source code was pushed. Learn more about [the install process](https://github.com/allinbits/starport-installer).
 
+### Test
+To test the functionality of the auction, run the `test.sh` file which is a simple bash script generating random bids and sending them to the chain. This test also queries the chain when the block number exceeds a multiplication of 100 and checks if the output of the highest bid from the chain is correct based on the values of the placed bids.
 ## Learn more
 
 - [Ignite CLI](https://ignite.com/cli)
