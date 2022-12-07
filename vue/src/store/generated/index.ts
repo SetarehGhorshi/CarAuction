@@ -1,8 +1,10 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import CarauctionCar from './carauction.car'
 
 
 export default { 
+  CarauctionCar: load(CarauctionCar, 'carauction.car'),
   
 }
 
